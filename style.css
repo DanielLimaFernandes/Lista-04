@@ -170,7 +170,7 @@ input[type="checkbox"] {
 
     /*Botão de check quando desmarcado*/
     .no-check {
-        margin: 2px 0 0 40%;
+        margin: 2px auto 0 auto;
     }
 
 }
