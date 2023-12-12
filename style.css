@@ -1,3 +1,11 @@
+@charset "UTF-8";
+
+/*Parametros gerais*/
+* {
+    font-family: sans-serif;
+
+}
+
 .add {
     border-style: solid;
     border-color: rgb(41, 41, 41);
@@ -166,4 +174,3 @@ input[type="checkbox"] {
     }
 
 }
-
