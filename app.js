@@ -4,8 +4,8 @@ import { adicionarNovoItem, listarItens, removerItem, marcarItem, desmarcarItem 
 // Variáveis da página web
 const inputNomeProduto = document.querySelector("#nome-do-item");
 const inputPrecoItem = document.querySelector("#preco-do-item");
-const inputCodigoBarras = document.querySelector("#codigo-de-barras");
-const outputDados = document.querySelector("#saida-de-dados");
+const inputCodigoBarras = document.querySelector("#codigoBarras");
+const outputDados = document.querySelector("#saidaDados");
 
 // Formulário que dispara o evento
 const form = document.querySelector("#sessao");
