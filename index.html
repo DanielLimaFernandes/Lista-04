@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="lista, armazenar, listar">
+    <meta name="author" content="Daniel Lima">
+    <title>Lista</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Adicionar produto</h1>
+
+        <form id="sessao">
+            <span class="adicionar-novo"><i class="far fa-user-circle icones"></i><input type="text" id="nome-do-item"
+                    class="campos" placeholder="Nome do item" required></span>
+
+            <span class="adicionar-novo"><i class="fas fa-university icones"></i><input type="number" id="preco-do-item"
+                    class="campos" placeholder="Preço do item" required></span>
+
+            <span class="adicionar-novo"><i class="fas fa-barcode icones"></i><input type="text" id="codigo-de-barras"
+                    class="campos" placeholder="Numero do cod. de barras" required></span>
+
+            <button type="submit"><i class="far fa-plus" id="adicionar"></i></button>
+        </form>
+    </section>
+
+    <section class="container">
+        <h1 id="existente">Existentes</h1>
+
+        <section id="dados-existentes">
+            <table>
+                <thead id="head-table">
+                    <tr>
+                        <td>Nome</td>
+                        <td>Preço</td>
+                        <td>Cód. de barras</td>
+                        <td>Comprado</td>
+                        <td>Ações</td>
+                    </tr>
+                </thead>
+
+                <tbody id="saida-de-dados">
+                </tbody>
+            </table>
+        </section>
+    </section>
+
+    <script type="module" src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/b3b34daf48.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
