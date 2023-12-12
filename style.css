@@ -36,11 +36,6 @@
     transition: .8s;
 }
 
-button {
-    background-color: transparent;
-    border: none;
-}
-
 #dados-existentes {
     width: 95%;
     padding: 0 5px;
