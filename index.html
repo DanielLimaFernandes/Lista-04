@@ -14,13 +14,13 @@
         <h1>Adicionar produto</h1>
 
         <form id="sessao">
-            <span class="adicionar-novo"><i class="far fa-user-circle icones"></i><input type="text" id="nome-do-item"
+            <span class="add"><input type="text" id="nome-do-item"
                     class="campos" placeholder="Nome do item" required></span>
 
-            <span class="adicionar-novo"><i class="fas fa-university icones"></i><input type="number" id="preco-do-item"
+            <span class="add"><input type="number" id="preco-do-item"
                     class="campos" placeholder="Preço do item" required></span>
 
-            <span class="adicionar-novo"><i class="fas fa-barcode icones"></i><input type="text" id="codigo-de-barras"
+            <span class="add"><input type="text" id="codigo-de-barras"
                     class="campos" placeholder="Numero do cod. de barras" required></span>
 
             <button type="submit">Add Item</i></button>
@@ -30,9 +30,9 @@
     <section class="container">
         <h1 id="existente">Existentes</h1>
 
-        <section id="dados-existentes">
+        <section id="dados">
             <table>
-                <thead id="head-table">
+                <thead id="tabela">
                     <tr>
                         <td>Nome</td>
                         <td>Preço</td>
@@ -42,7 +42,7 @@
                     </tr>
                 </thead>
 
-                <tbody id="saida-de-dados">
+                <tbody id="saidaDados">
                 </tbody>
             </table>
         </section>
